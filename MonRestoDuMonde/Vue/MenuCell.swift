@@ -22,6 +22,7 @@ class MenuCell: UICollectionViewCell {
         vue.layer.cornerRadius = 10
         vue.layer.borderColor = NOIR.cgColor
         vue.layer.borderWidth = 1
+        vue.backgroundColor = UIColor.white
         
         imageDuMenu.image = self.menu.image
         imageDuMenu.contentMode = .scaleAspectFill
