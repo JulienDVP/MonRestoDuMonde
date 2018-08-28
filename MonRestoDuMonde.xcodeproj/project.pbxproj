@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F92F98C921356E940013C385 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98C821356E940013C385 /* MonTabBar.swift */; };
 		F92F98CC21356EDD0013C385 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98CB21356EDD0013C385 /* Constantes.swift */; };
+		F92F98CE213571F80013C385 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98CD213571F80013C385 /* MonNav.swift */; };
 		F9BF2C6B21342A6C008A4D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF2C6A21342A6C008A4D76 /* AppDelegate.swift */; };
 		F9BF2C7021342A6C008A4D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BF2C6E21342A6C008A4D76 /* Main.storyboard */; };
 		F9BF2C7221342A6D008A4D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BF2C7121342A6D008A4D76 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		F92F98C821356E940013C385 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		F92F98CB21356EDD0013C385 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		F92F98CD213571F80013C385 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		F9BF2C6721342A6C008A4D76 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BF2C6A21342A6C008A4D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BF2C6F21342A6C008A4D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				F9BF2C7F21342CCC008A4D76 /* MenuController.swift */,
 				F9BF2C8121342D27008A4D76 /* ALaCarteController.swift */,
 				F92F98C821356E940013C385 /* MonTabBar.swift */,
+				F92F98CD213571F80013C385 /* MonNav.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				F92F98CC21356EDD0013C385 /* Constantes.swift in Sources */,
 				F92F98C921356E940013C385 /* MonTabBar.swift in Sources */,
+				F92F98CE213571F80013C385 /* MonNav.swift in Sources */,
 				F9BF2C8021342CCC008A4D76 /* MenuController.swift in Sources */,
 				F9BF2C6B21342A6C008A4D76 /* AppDelegate.swift in Sources */,
 				F9BF2C8221342D27008A4D76 /* ALaCarteController.swift in Sources */,
