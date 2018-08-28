@@ -13,6 +13,8 @@
 		F92F98D0213575DD0013C385 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98CF213575DD0013C385 /* MenuCell.swift */; };
 		F92F98D2213577F50013C385 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98D1213577F50013C385 /* Plat.swift */; };
 		F92F98D4213578280013C385 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F98D3213578280013C385 /* Enums.swift */; };
+		F9B8271D2135B7FF00CFAE28 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8271C2135B7FF00CFAE28 /* Menu.swift */; };
+		F9B8271F2135B8D300CFAE28 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8271E2135B8D300CFAE28 /* LesPlats.swift */; };
 		F9BF2C6B21342A6C008A4D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF2C6A21342A6C008A4D76 /* AppDelegate.swift */; };
 		F9BF2C7021342A6C008A4D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BF2C6E21342A6C008A4D76 /* Main.storyboard */; };
 		F9BF2C7221342A6D008A4D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BF2C7121342A6D008A4D76 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		F92F98CF213575DD0013C385 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		F92F98D1213577F50013C385 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		F92F98D3213578280013C385 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		F9B8271C2135B7FF00CFAE28 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F9B8271E2135B8D300CFAE28 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 		F9BF2C6721342A6C008A4D76 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BF2C6A21342A6C008A4D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BF2C6F21342A6C008A4D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 			children = (
 				F92F98D1213577F50013C385 /* Plat.swift */,
 				F92F98D3213578280013C385 /* Enums.swift */,
+				F9B8271C2135B7FF00CFAE28 /* Menu.swift */,
+				F9B8271E2135B8D300CFAE28 /* LesPlats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -192,7 +198,9 @@
 				F92F98CC21356EDD0013C385 /* Constantes.swift in Sources */,
 				F92F98C921356E940013C385 /* MonTabBar.swift in Sources */,
 				F92F98CE213571F80013C385 /* MonNav.swift in Sources */,
+				F9B8271D2135B7FF00CFAE28 /* Menu.swift in Sources */,
 				F9BF2C8021342CCC008A4D76 /* MenuController.swift in Sources */,
+				F9B8271F2135B8D300CFAE28 /* LesPlats.swift in Sources */,
 				F9BF2C6B21342A6C008A4D76 /* AppDelegate.swift in Sources */,
 				F92F98D2213577F50013C385 /* Plat.swift in Sources */,
 				F92F98D4213578280013C385 /* Enums.swift in Sources */,

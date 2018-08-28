@@ -32,7 +32,7 @@ class Plat {
     }
     
     init(type: Type, pays: String, desc: String, image: UIImage) {
-        self._type = Type
+        self._type = type
         self._pays = pays
         self._desc = desc
         self._image = image
