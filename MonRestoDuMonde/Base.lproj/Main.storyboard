@@ -142,20 +142,20 @@
         <scene sceneID="am9-pK-FDM">
             <objects>
                 <tableViewController id="FzC-Eb-uag" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nc1-e7-07x">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nc1-e7-07x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="182" id="I5E-CK-zgj" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="182" id="I5E-CK-zgj" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="182"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I5E-CK-zgj" id="1Nl-0t-UgV">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="181.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="isl-l3-Xkk">
-                                            <rect key="frame" x="10" y="40" width="128" height="100"/>
+                                            <rect key="frame" x="10" y="41" width="128" height="100"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="GsS-xS-Xjt"/>
                                                 <constraint firstAttribute="width" constant="128" id="LHG-cb-xcc"/>
@@ -163,7 +163,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sP5-bA-nzQ">
-                                            <rect key="frame" x="146" y="40" width="213" height="100"/>
+                                            <rect key="frame" x="146" y="41" width="213" height="100"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="100" id="BP0-IT-lW0"/>
                                             </constraints>
@@ -172,6 +172,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="sP5-bA-nzQ" firstAttribute="leading" secondItem="isl-l3-Xkk" secondAttribute="trailing" constant="8" id="8Me-ri-K1v"/>
                                         <constraint firstItem="isl-l3-Xkk" firstAttribute="leading" secondItem="1Nl-0t-UgV" secondAttribute="leading" constant="10" id="FW0-x1-gpa"/>
@@ -180,6 +181,7 @@
                                         <constraint firstItem="sP5-bA-nzQ" firstAttribute="centerY" secondItem="1Nl-0t-UgV" secondAttribute="centerY" id="ysB-YK-cCB"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="descDuPlat" destination="sP5-bA-nzQ" id="IM1-VX-DIm"/>
                                     <outlet property="imageDuPlat" destination="isl-l3-Xkk" id="Sdv-YC-YbV"/>
